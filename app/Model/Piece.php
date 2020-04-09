@@ -1,9 +1,11 @@
 <?php
 
-
 namespace App\Model;
 
-
+/**
+ * Class Piece
+ * @package App\Model
+ */
 class Piece
 {
 
@@ -37,5 +39,34 @@ class Piece
             return PieceSet::POSITION_TAIL;
         }
         return PieceSet::POSITION_NONE;
+    }
+    /**
+     * @return int
+     */
+    public function head() {
+        return $this->head;
+    }
+
+    /**
+     * @return int
+     */
+    public function tail() {
+        return $this->tail;
+    }
+
+    /**
+     * @return $this
+     */
+    public function flip()
+    {
+        $tempHead = $this->head;
+        $this->head = $this->tail;
+        $this->tail = $tempHead;
+        return $this;
+    }
+
+    public function __toString()
+    {
+        return "[{$this->head}:{$this->tail}]";
     }
 }

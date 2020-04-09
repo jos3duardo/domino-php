@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/domino.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Game.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Piece.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/PieceSet.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Model/Player.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/lot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pieces.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    <list default="true" id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="add files">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Piece.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Piece.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,26 +56,57 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586438248808</updated>
-      <workItem from="1586438250681" duration="15905000" />
+      <workItem from="1586438250681" duration="16131000" />
     </task>
+    <task id="LOCAL-00001" summary="finish PieceSet.php">
+      <created>1586467717243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586467717243</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add files">
+      <created>1586467752771</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586467752771</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish PieceSet.php" />
+    <MESSAGE value="add files" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1858" y="166" width="382" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1586466902121">
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
     <state x="1858" y="166" width="382" height="559" key="#com.intellij.ide.util.MemberChooser/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586466902121" />
-    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586467378691">
+    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586467841021">
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
-    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467378691" />
-    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2" timestamp="1586467671013">
+    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467841021" />
+    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2" timestamp="1586467790842">
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
-    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467671013" />
+    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467790842" />
     <state x="1831" y="251" width="484" height="390" key="NewPhpClassDialog" timestamp="1586466251050">
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
@@ -94,5 +115,9 @@
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
     <state x="1857" y="370" width="383" height="152" key="NewPhpFileDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586444109209" />
+    <state x="2146" y="301" width="296" height="173" key="VCS.ChangelistChooser" timestamp="1586467787217">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="2146" y="301" width="296" height="173" key="VCS.ChangelistChooser/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467787217" />
   </component>
 </project>
