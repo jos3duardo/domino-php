@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/domino.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Game.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Piece.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/PieceSet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Model/Player.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/lot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/pieces.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aJ0Any8h2AEZd4lsRtjC5wlhUv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
+      <recent name="$PROJECT_DIR$/entity" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="" />
+      <created>1586438248808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586438248808</updated>
+      <workItem from="1586438250681" duration="15905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1858" y="166" width="382" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1586466902121">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="1858" y="166" width="382" height="559" key="#com.intellij.ide.util.MemberChooser/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586466902121" />
+    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586467378691">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="1769" y="173" width="532" height="481" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467378691" />
+    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2" timestamp="1586467671013">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467671013" />
+    <state x="1831" y="251" width="484" height="390" key="NewPhpClassDialog" timestamp="1586466251050">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="1831" y="251" width="484" height="390" key="NewPhpClassDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586466251050" />
+    <state x="1857" y="370" width="383" height="152" key="NewPhpFileDialog" timestamp="1586444109209">
+      <screen x="1366" y="7" width="1366" height="768" />
+    </state>
+    <state x="1857" y="370" width="383" height="152" key="NewPhpFileDialog/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586444109209" />
+  </component>
+</project>

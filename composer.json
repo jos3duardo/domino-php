@@ -1,0 +1,27 @@
+{
+    "name": "jos3duardo/domino",
+    "description": "jogo de domino",
+    "keywords": [
+        "game",
+        "domino",
+        "player",
+        "php"
+    ],
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jos3duardo",
+            "email": "jos3duardolopes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+ }
