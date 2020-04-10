@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App\Model;
 
 /**
@@ -23,7 +22,7 @@ class PieceSet
      * PieceSet constructor.
      * @param array $piece
      */
-    public function __construct(array $piece)
+    public function __construct(array $piece = [])
     {
         $this->piece = $piece;
     }
@@ -56,7 +55,7 @@ class PieceSet
      * @param Piece $piece
      * @return $this
      */
-    public function append(Piece $piece)
+    public function append($piece)
     {
         $this->piece[] = $piece;
         return $this;
@@ -87,13 +86,6 @@ class PieceSet
             unset($this->piece[$key]);
         }
         return $result;
-    }
-
-    /**
-     * @return bool
-     */
-    public function isEmpty() {
-        return empty($this->piece);
     }
 
     /**

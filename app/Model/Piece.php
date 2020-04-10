@@ -2,10 +2,7 @@
 
 namespace App\Model;
 
-/**
- * Class Piece
- * @package App\Model
- */
+
 class Piece
 {
 
