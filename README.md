@@ -2,7 +2,7 @@
 
 This is a simulation of a domino game, it is not iterative, the system makes the moves internally and shows the result to the user.  
 
-##### projeto online neste [link](http://134.122.23.255/domino/) 
+##### online project in this [link](http://134.122.23.255/domino/ "Click and access now") 
 
 Image of preview
 ![Image](public/image/figure.png)
