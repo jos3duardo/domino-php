@@ -5,6 +5,7 @@ This is a simulation of a domino game, it is not iterative, the system makes the
 ##### online project in this [link](http://134.122.23.255/domino/ "Click and access now") 
 
 Image of preview
+
 ![Image](public/image/figure.png)
 
 ## Step by step to start the project
