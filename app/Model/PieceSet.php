@@ -100,7 +100,7 @@ class PieceSet
      */
     public function __toString()
     {
-        return implode(' ', $this->piece);
+        return implode('-', $this->piece);
     }
 
 }

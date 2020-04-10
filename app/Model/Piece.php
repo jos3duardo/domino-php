@@ -64,7 +64,7 @@ class Piece
 
     public function __toString()
     {
-        return "[{$this->head}:{$this->tail}]";
+        return "[ {$this->head}:{$this->tail} ]";
     }
 
     /**

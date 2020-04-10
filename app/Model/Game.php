@@ -63,12 +63,12 @@ class Game
 
                 $pieceFromStock = $this->startPieces();
                 $player->prependPiece($pieceFromStock);
-                $this->output("$player can't play, drawing piece $pieceFromStock <br>");
+                $this->output("<b> $player </b> can't play, drawing piece $pieceFromStock <br>");
             }
         }
 
         if (!empty($piece)) {
-            $this->output("$player plays --> $piece<br>");
+            $this->output("<b> $player </b> plays => $piece<br>");
             $this->table->add($position, $piece);
         }
     }

@@ -18,25 +18,28 @@ use \App\Model\Game;
     <body>
         <br>
         <div class="container">
-            <form method="POST" class="form-inline">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="form-group mb-2">
-                            <label for="player1">Player 1:</label>
-                            <input type="text" class="form-control"  id="player1" name="player1" placeholder="Name" required>
+            <div class="row">
+                <form method="POST" class="form-inline">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="form-group mb-2">
+                                <label for="player1">Player 1:</label>
+                                <input type="text" class="form-control"  id="player1" name="player1" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="form-group mb-2">
+                                <label for="player2">Player 2:</label>
+                                <input type="text" class="form-control"  id="player2" name="player2" placeholder="Name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <button type="submit" class="btn btn-primary mb-2">Start</button>
                         </div>
                     </div>
-                    <div class="col-md-5">
-                        <div class="form-group mb-2">
-                            <label for="player2">Player 2:</label>
-                            <input type="text" class="form-control"  id="player2" name="player2" placeholder="Name" required>
-                        </div>
-                    </div>
-                    <div class="col-md-2 mt-3">
-                        <button type="submit" class="btn btn-primary mb-2">Start</button>
-                    </div>
-                </div>
-            </form>
+                </form>
+            </div>
+            <hr>
             <?php
                 $player1 = $_POST['player1'];
                 $player2 = $_POST['player2'];
@@ -46,7 +49,6 @@ use \App\Model\Game;
                     $game->start($player1, $player2);
                 }
             ?>
-            <hr>
         </div>
     </body>
 </html>
