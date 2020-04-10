@@ -66,4 +66,38 @@ class Piece
     {
         return "[{$this->head}:{$this->tail}]";
     }
+
+    /**
+     * @return mixed
+     */
+    public function getHead()
+    {
+        return $this->head;
+    }
+
+    /**
+     * @param mixed $head
+     */
+    public function setHead($head): void
+    {
+        $this->head = $head;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTail()
+    {
+        return $this->tail;
+    }
+
+    /**
+     * @param mixed $tail
+     */
+    public function setTail($tail): void
+    {
+        $this->tail = $tail;
+    }
+
+
 }

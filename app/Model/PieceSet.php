@@ -14,7 +14,7 @@ class PieceSet
     const POSITION_TAIL = 2;
 
     /**
-     * @var array
+     * @var Piece
      */
     private $piece;
 
@@ -55,37 +55,14 @@ class PieceSet
      * @param Piece $piece
      * @return $this
      */
-    public function append($piece)
+    public function append(Piece $piece)
     {
         $this->piece[] = $piece;
         return $this;
     }
 
-    /**
-     * @return Piece
-     */
-    public function getRandomPiece(): Piece
-    {
-        $result = $this->getRandomPieces(1);
-        return $result[0];
-    }
-
-    /**
-     * @param $amount
-     * @return array
-     */
-    public function getRandomPieces($amount): array
-    {
-        $result = [];
-        $keys = array_rand($this->piece, $amount);
-        if ($amount == 1) {
-            $keys = [$keys];
-        }
-        foreach ($keys as $key) {
-            $result[] = $this->piece[$key];
-            unset($this->piece[$key]);
-        }
-        return $result;
+    public function isEmpty() {
+        return empty($this->piece);
     }
 
     /**

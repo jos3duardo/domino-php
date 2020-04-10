@@ -24,24 +24,17 @@ class Game
      */
     private $finish = false;
 
-
-
-
    public function start($player1, $player2){
        $this->initialize($player1, $player2);
-       $this->output("Game starting with first tile : {$this->table}");
-
-//       var_dump($data);
+       $this->output("Game starting with<br> table now {$this->table}<br>");
        while (!$this->finish) {
            /** @var Player $player */
            foreach ($this->players as $player) {
                try {
-
                    $this->turn($player);
-                   $this->output("Table is now {$this->table}.");
+                   $this->output("Table is now {$this->table}.<br>");
                    $this->checkForWinner($player);
-                   $this->checkForPiecesInStock();
-
+                   $this->checkForPiecesInPile();
                    if ($this->finish) {
                        break;
                    }
@@ -68,14 +61,14 @@ class Game
 
             if (empty($piece)) {
 
-                $pieceFromStock = $this->pile->getRandomPiece();
+                $pieceFromStock = $this->startPieces();
                 $player->prependPiece($pieceFromStock);
-                $this->output("$player can't play, drawing tile $pieceFromStock");
+                $this->output("$player can't play, drawing piece $pieceFromStock <br>");
             }
         }
 
         if (!empty($piece)) {
-            $this->output("$player plays --> $piece");
+            $this->output("$player plays --> $piece<br>");
             $this->table->add($position, $piece);
         }
     }
@@ -93,21 +86,46 @@ class Game
             $select = array_rand($this->all_pieces,1);
             //remove the piece choose
             unset($this->all_pieces[$select]);
+
+            $dados = explode(':',$data[$select] );
+            $piece = new Piece($dados[0],$dados[1]);
+
             //add piece in array
-            $pieces[$init] = $data[$select];
+            $pieces[$init] = $piece;
         }
         return $pieces;
     }
 
     //chose the piece for starter game
     private function startPieces(){
+
             $data = $this->all_pieces;
             //generate a rand number
             $select = array_rand($this->all_pieces,1);
             //remove the piece choose
             unset($this->all_pieces[$select]);
             //add piece in array
-        return $pieces = $data[$select];
+            $dados = explode(':',$data[$select] );
+            $piece = new Piece($dados[0],$dados[1]);
+
+        return $piece;
+    }
+
+    /**
+     * @return mixed
+     */
+    private function mountLot(){
+        //get all pieces of domino
+        $allPieces = $this->all_pieces;
+        $init = 0;
+        foreach ($allPieces as $piece){
+            $dados = explode(':',$piece );
+            $data = new Piece($dados[0],$dados[1]);
+            $pieces[$init] = $data;
+            $init++;
+        }
+
+        return new PieceSet($pieces);
     }
 
     public function initialize($player1, $player2)
@@ -122,28 +140,27 @@ class Game
             $player2,
            new PieceSet($this->choosingPieces())
         );
-
         //set the piece for game starter
         $this->table = new PieceSet();
         $this->table->append($this->startPieces());
 
         //add the pieces remaining in pile
-        $this->pile = $this->all_pieces;
+        $this->pile = $this->mountLot();
     }
 
     private function checkForWinner(Player $player)
     {
         if ($player->isOutOfPieces()) {
-            $this->output("Player $player has won.");
+            $this->output("<br><h3>Player $player has won.</h3><br>");
             $this->finish = true;
         }
     }
 
 
-    private function checkForPiecesInStock()
+    private function checkForPiecesInPile()
     {
         if ($this->pile->isEmpty()) {
-            $this->output("Looks like we are out of pile, nobody wins.");
+            $this->output("Looks like we are out of pile, nobody wins.<br>");
             $this->finish = true;
         }
     }

@@ -1,9 +1,7 @@
 <?php
 require_once 'vendor/autoload.php';
 use \App\Model\Game;
-
 ?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,73 +16,38 @@ use \App\Model\Game;
 
     <title>Domino</title>
 </head>
-<body>
-<br>
-<div class="container">
-<!--<form action="/app/Controller/PlayerController.php" method="POST">-->
-<form method="POST" class="form-inline">
-    <div class="row">
-        <div class="col-md-5">
-            <div class="form-group mb-2">
-                <label for="player1">Jogador 1:</label>
-                <input type="text" class="form-control"  id="player1" name="player1" placeholder="Nome" required>
-            </div>
-        </div>
-        <div class="col-md-5">
-            <div class="form-group mb-2">
-                <label for="player2">Jogador 2:</label>
-                <input type="text" class="form-control"  id="player2" name="player2" placeholder="Nome" required>
-            </div>
-        </div>
-        <div class="col-md-2 mt-3">
-            <button type="submit" class="btn btn-primary mb-2">Iniciar</button>
-        </div>
-    </div>
-    <div class="row">
+    <body>
+        <br>
+        <div class="container">
+            <form method="POST" class="form-inline">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-group mb-2">
+                            <label for="player1">Jogador 1:</label>
+                            <input type="text" class="form-control"  id="player1" name="player1" placeholder="Nome" required>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group mb-2">
+                            <label for="player2">Jogador 2:</label>
+                            <input type="text" class="form-control"  id="player2" name="player2" placeholder="Nome" required>
+                        </div>
+                    </div>
+                    <div class="col-md-2 mt-3">
+                        <button type="submit" class="btn btn-primary mb-2">Iniciar</button>
+                    </div>
+                </div>
+            </form>
+            <?php
+                $player1 = $_POST['player1'];
+                $player2 = $_POST['player2'];
 
-    </div>
-</form>
-<?php
-    $player1 = $_POST['player1'];
-    $player2 = $_POST['player2'];
-
-    $game = new Game();
-    $game->start($player1, $player2);
-//    $players = $game-
-?>
-<hr>
-<div class="row">
-        <div class="col-md-4">
-            <p>Peças do jogador 1: <?= $player1?></p>
-            <ul>
-                <?php foreach ($game->getPlayers()[0]->getPieces() as $piece){ ?>
-                <li>
-                    <?= $piece ?>
-                </li>
-                <?php } ?>
-            </ul>
+                if($player1 != null && $player2 != null){
+                    $game = new Game();
+                    $game->start($player1, $player2);
+                }
+            ?>
+            <hr>
         </div>
-        <div class="col-md-4">
-            <p>Peças do jogador 2: <?= $player2?></p>
-            <ul>
-                <?php foreach ($game->getPlayers()[1]->getPieces() as $piece){ ?>
-                    <li>
-                        <?= $piece ?>
-                    </li>
-                <?php } ?>
-            </ul>
-        </div>
-        <div class="col-md-4">
-            <p>Monte</p>
-            <ul>
-                <?php foreach ($game->getPile() as $piece){ ?>
-                    <li>
-                        <?= $piece ?>
-                    </li>
-                <?php } ?>
-            </ul>
-        </div>
-</div>
-</div>
-</body>
+    </body>
 </html>
