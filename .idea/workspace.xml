@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/domino.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/domino.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Model/Game.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Game.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/Piece.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Piece.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Model/PieceSet.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/PieceSet.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +49,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../teste/domino-php" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +72,7 @@
       <updated>1586438248808</updated>
       <workItem from="1586438250681" duration="39248000" />
       <workItem from="1586520797968" duration="5633000" />
-      <workItem from="1586527786106" duration="1423000" />
+      <workItem from="1586527786106" duration="3253000" />
     </task>
     <task id="LOCAL-00001" summary="finish PieceSet.php">
       <created>1586467717243</created>
@@ -107,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586496746899</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finishing the project">
+      <created>1586529245308</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586529245308</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add documentation in README.md">
+      <created>1586530953680</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586530953680</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +140,9 @@
     <MESSAGE value="add files" />
     <MESSAGE value="finish Piece.php" />
     <MESSAGE value="system in last fase" />
-    <option name="LAST_COMMIT_MESSAGE" value="system in last fase" />
+    <MESSAGE value="finishing the project" />
+    <MESSAGE value="add documentation in README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="add documentation in README.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="154" width="466" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1586523849316">
@@ -148,10 +159,15 @@
     </state>
     <state x="725" y="0" key="#xdebugger.evaluate/0.0.1366.746@0.0.1366.746" timestamp="1586526846644" />
     <state x="2248" y="20" key="#xdebugger.evaluate/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586495998323" />
-    <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2" timestamp="1586496746790">
-      <screen x="1366" y="7" width="1366" height="768" />
+    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2" timestamp="1586530953595">
+      <screen x="0" y="0" width="1366" height="746" />
     </state>
+    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2/0.0.1366.746@0.0.1366.746" timestamp="1586530953595" />
     <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586496746790" />
+    <state x="466" y="133" width="432" height="481" key="FileChooserDialogImpl" timestamp="1586529895128">
+      <screen x="0" y="0" width="1366" height="746" />
+    </state>
+    <state x="466" y="133" width="432" height="481" key="FileChooserDialogImpl/0.0.1366.746@0.0.1366.746" timestamp="1586529895128" />
     <state width="1324" height="278" key="GridCell.Tab.0.bottom" timestamp="1586528969512">
       <screen x="0" y="0" width="1366" height="746" />
     </state>
@@ -224,6 +240,10 @@
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
     <state x="2146" y="301" width="296" height="173" key="VCS.ChangelistChooser/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467787217" />
+    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1586530956360">
+      <screen x="0" y="0" width="1366" height="746" />
+    </state>
+    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.746@0.0.1366.746" timestamp="1586530956360" />
     <state x="336" y="0" width="691" height="743" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586526252064">
       <screen x="0" y="0" width="1366" height="746" />
     </state>

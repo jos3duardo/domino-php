@@ -151,7 +151,7 @@ class Game
     private function checkForWinner(Player $player)
     {
         if ($player->isOutOfPieces()) {
-            $this->output("<br><h3>Player $player has won.</h3><br>");
+            $this->output("<br><h3>Player <b> $player </b> has won.</h3><br>");
             $this->finish = true;
         }
     }
