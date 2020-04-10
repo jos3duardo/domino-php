@@ -4,7 +4,6 @@
     <list default="true" id="d5f3f411-dfcc-4bdb-829f-50ce31bbcb2e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
       <updated>1586438248808</updated>
       <workItem from="1586438250681" duration="39248000" />
       <workItem from="1586520797968" duration="5633000" />
-      <workItem from="1586527786106" duration="5742000" />
+      <workItem from="1586527786106" duration="6378000" />
     </task>
     <task id="LOCAL-00001" summary="finish PieceSet.php">
       <created>1586467717243</created>
@@ -131,7 +130,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586533140689</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add link the site in README.md">
+      <created>1586533944503</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586533944503</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new figure">
+      <created>1586534276051</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1586534276051</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new figure">
+      <created>1586534355256</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1586534355256</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +178,8 @@
     <MESSAGE value="finishing the project" />
     <MESSAGE value="add documentation in README.md" />
     <MESSAGE value="add link the site in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="add link the site in README.md" />
+    <MESSAGE value="new figure" />
+    <option name="LAST_COMMIT_MESSAGE" value="new figure" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="154" width="466" height="559" key="#com.intellij.ide.util.MemberChooser" timestamp="1586523849316">
@@ -175,10 +196,10 @@
     </state>
     <state x="725" y="0" key="#xdebugger.evaluate/0.0.1366.746@0.0.1366.746" timestamp="1586526846644" />
     <state x="2248" y="20" key="#xdebugger.evaluate/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586495998323" />
-    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2" timestamp="1586533140600">
+    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2" timestamp="1586534355192">
       <screen x="0" y="0" width="1366" height="746" />
     </state>
-    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2/0.0.1366.746@0.0.1366.746" timestamp="1586533140600" />
+    <state x="494" y="0" width="870" height="743" key="CommitChangelistDialog2/0.0.1366.746@0.0.1366.746" timestamp="1586534355192" />
     <state x="1860" y="7" width="870" height="765" key="CommitChangelistDialog2/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586496746790" />
     <state x="466" y="133" width="432" height="481" key="FileChooserDialogImpl" timestamp="1586529895128">
       <screen x="0" y="0" width="1366" height="746" />
@@ -256,10 +277,10 @@
       <screen x="1366" y="7" width="1366" height="768" />
     </state>
     <state x="2146" y="301" width="296" height="173" key="VCS.ChangelistChooser/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586467787217" />
-    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1586533143129">
+    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2" timestamp="1586534356754">
       <screen x="0" y="0" width="1366" height="746" />
     </state>
-    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.746@0.0.1366.746" timestamp="1586533143129" />
+    <state x="278" y="107" width="808" height="533" key="Vcs.Push.Dialog.v2/0.0.1366.746@0.0.1366.746" timestamp="1586534356754" />
     <state x="336" y="0" width="691" height="743" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586526252064">
       <screen x="0" y="0" width="1366" height="746" />
     </state>
@@ -269,9 +290,10 @@
     </state>
     <state x="349" y="107" width="668" height="552" key="find.popup/0.0.1366.746@0.0.1366.746" timestamp="1586527652093" />
     <state x="1715" y="117" width="668" height="552" key="find.popup/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586495493983" />
-    <state x="1709" y="174" width="672" height="677" key="run.anything.popup" timestamp="1586492382776">
-      <screen x="1366" y="7" width="1366" height="768" />
+    <state x="343" y="162" width="672" height="658" key="run.anything.popup" timestamp="1586534372403">
+      <screen x="0" y="0" width="1366" height="746" />
     </state>
+    <state x="343" y="162" width="672" height="658" key="run.anything.popup/0.0.1366.746@0.0.1366.746" timestamp="1586534372403" />
     <state x="1709" y="174" width="672" height="677" key="run.anything.popup/1366.7.1366.768/0.0.1366.768@1366.7.1366.768" timestamp="1586492382776" />
   </component>
   <component name="XDebuggerManager">

@@ -34,7 +34,8 @@ php -S localhost:8000
 ```
 
 #### Fourth 
-Open this navigator in this URL [localhost:8000](http://localhost:8000/)
+Open this navigator in this URL [localhost:8000](http://localhost:8000/) 
+or access this [link](http://134.122.23.255/domino/ "Click and access now") to see the project online.
 
 #### Fifth
 Enter the names of the players and start
