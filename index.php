@@ -22,18 +22,18 @@ use \App\Model\Game;
                 <div class="row">
                     <div class="col-md-5">
                         <div class="form-group mb-2">
-                            <label for="player1">Jogador 1:</label>
-                            <input type="text" class="form-control"  id="player1" name="player1" placeholder="Nome" required>
+                            <label for="player1">Player 1:</label>
+                            <input type="text" class="form-control"  id="player1" name="player1" placeholder="Name" required>
                         </div>
                     </div>
                     <div class="col-md-5">
                         <div class="form-group mb-2">
-                            <label for="player2">Jogador 2:</label>
-                            <input type="text" class="form-control"  id="player2" name="player2" placeholder="Nome" required>
+                            <label for="player2">Player 2:</label>
+                            <input type="text" class="form-control"  id="player2" name="player2" placeholder="Name" required>
                         </div>
                     </div>
                     <div class="col-md-2 mt-3">
-                        <button type="submit" class="btn btn-primary mb-2">Iniciar</button>
+                        <button type="submit" class="btn btn-primary mb-2">Start</button>
                     </div>
                 </div>
             </form>
