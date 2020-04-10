@@ -26,7 +26,7 @@ class Game
 
    public function start($player1, $player2){
        $this->initialize($player1, $player2);
-       $this->output("Game starting with<br> table now {$this->table}<br>");
+       $this->output("<br><h3>Game starting</h3><br> table now {$this->table}<br>");
        while (!$this->finish) {
            /** @var Player $player */
            foreach ($this->players as $player) {
